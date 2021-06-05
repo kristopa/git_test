@@ -1,0 +1,19 @@
+===Common Git Commands===
+git --version //check the version of git you are using
+
+git config --global init.defaultBranch main //set your local default git branch to main
+
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git //clone remote repo to local
+
+git remote -v //displays the remote repo you downloaded
+
+git status //shows files that are unstaged/staged
+
+git add FILE-NAME //adds the file to the staging area
+git add -A //adds all files to staging area
+
+git commit -m "COMMIT-COMMENT" //commits the file and adds a comment
+
+git log //details of commits with date and time
+
+git push origin main //pushes local repo to remote repo
